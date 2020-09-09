@@ -13,16 +13,6 @@ const Menu = ({about, contact, info}) => (
         </Text>
         <View style={styles.row}>
             <View>
-                <TouchableOpacity style={styles.element}>
-                    <Image style={{
-                        alignSelf: 'center',
-                        height:normalize(100),
-                        width:normalize(100),
-                    }} source={require('../../public/icons/test.png')} ></Image>
-                </TouchableOpacity>    
-                <Text style={styles.text}> {'Evalúa el agua'} </Text>
-            </View>
-            <View>
                 <TouchableOpacity style={styles.element} onPress={about}>
                     <Image style={{
                         alignSelf: 'center',
